@@ -1,7 +1,7 @@
 (function() {
     // ================= CONFIGURATION =================
     const CONFIG = {
-        endpoint: "http://localhost:3000/collect", // REPLACE THIS with your server URL
+        endpoint: "https://google-ads-backend-tlvs.onrender.com", // REPLACE THIS with your server URL
         batchSize: 10,       // Send data after collecting 10 events
         flushInterval: 5000, // Or send every 5 seconds, whichever comes first
         throttleDelay: 100   // Only record mouse movement every 100ms
