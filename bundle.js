@@ -1,7 +1,7 @@
 (function() {
     // ================= CONFIGURATION =================
     const CONFIG = {
-        baseUrl: "http://localhost:5000", 
+        baseUrl: "https://cmp-backend-467424984046.asia-south1.run.app", 
         userIdentity: "user@test.com", 
         batchSize: 5,
         flushInterval: 3000, // Increased slightly as data is now higher quality, less frequent
